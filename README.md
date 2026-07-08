@@ -1,6 +1,10 @@
-# NorthFound v2.1
+# NorthFound v3.0
 
-Updated public language:
-- Guide 001 -> The Kitchen Edit
-- NF-001 placeholders removed from visible product cards
-- Product cards use editorial labels instead of internal IDs
+Premium static website.
+
+Public-facing naming:
+- The Kitchen Edit
+- NorthFound Approved
+- No internal Guide/NF IDs visible
+
+Deploy by uploading all files to the root of the `northfound` GitHub repository.
