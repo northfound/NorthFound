@@ -293,12 +293,7 @@ h2{font-size:clamp(38px,5.2vw,76px)}
 }
 .score-badge strong{font-size:17px}
 .score-badge span{font-size:9px}
-.product-placeholder{
-  color:rgba(16,16,15,.18);
-  font-weight:900;
-  letter-spacing:.16em;
-  font-size:28px;
-}
+
 .product-body{padding:22px;display:flex;flex-direction:column;flex:1}
 .product-meta{display:flex;justify-content:space-between;gap:10px;margin-bottom:14px}
 .product-meta span{
@@ -375,4 +370,22 @@ h2{font-size:clamp(38px,5.2vw,76px)}
   .guide-panel{padding:22px;border-radius:28px}
   .product-grid{grid-template-columns:1fr}
   .site-footer{grid-template-columns:1fr}
+}
+
+.product-label{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:78%;
+  min-height:68px;
+  text-align:center;
+  padding:14px;
+  border-radius:20px;
+  color:rgba(16,16,15,.42);
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:23px;
+  line-height:1.05;
+  letter-spacing:-.03em;
+  background:rgba(255,255,255,.55);
+  border:1px solid rgba(184,148,78,.18);
 }
