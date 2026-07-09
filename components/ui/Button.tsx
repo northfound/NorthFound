@@ -24,16 +24,8 @@ export function Button({ href, children, variant = "primary", external = false }
   const className = `${base} ${variants[variant]}`;
 
   if (external) {
-    return (
-      <a className={className} href={href} target="_blank" rel="nofollow sponsored noopener noreferrer">
-        {children}
-      </a>
-    );
+    return <a className={className} href={href} target="_blank" rel="nofollow sponsored noopener noreferrer">{children}</a>;
   }
 
-  return (
-    <Link className={className} href={href}>
-      {children}
-    </Link>
-  );
+  return <Link className={className} href={href}>{children}</Link>;
 }

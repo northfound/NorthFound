@@ -17,14 +17,8 @@
   --nf-shadow-float: 0 42px 140px rgba(17, 17, 17, 0.16);
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  background: var(--nf-ivory);
-}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--nf-ivory); }
 
 body {
   margin: 0;
@@ -47,14 +41,8 @@ body::before {
   background-size: 4px 4px;
 }
 
-::selection {
-  background: var(--nf-charcoal);
-  color: var(--nf-ivory);
-}
-
-a {
-  color: inherit;
-}
+::selection { background: var(--nf-charcoal); color: var(--nf-ivory); }
+a { color: inherit; }
 
 .nf-shell {
   width: min(100% - 44px, 1480px);
@@ -90,23 +78,7 @@ a {
   backdrop-filter: blur(18px);
 }
 
-.nf-image {
-  background-size: cover;
-  background-position: center;
-  box-shadow: var(--nf-shadow-float);
-}
-
-.nf-divider {
-  height: 1px;
-  background: var(--nf-line);
-}
-
 @media (max-width: 760px) {
-  .nf-shell {
-    width: min(100% - 32px, 1480px);
-  }
-
-  .nf-lead {
-    font-size: 17px;
-  }
+  .nf-shell { width: min(100% - 32px, 1480px); }
+  .nf-lead { font-size: 17px; }
 }

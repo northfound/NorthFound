@@ -54,7 +54,7 @@ export function RecommendationCard({ item }: { item: Recommendation }) {
             Read Review
           </Link>
           <a href={item.link} target="_blank" rel="nofollow sponsored noopener" className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-nf-line bg-nf-white text-[11px] font-black uppercase tracking-[0.13em] text-nf-charcoal no-underline">
-            View on Amazon
+            See Recommendation
           </a>
         </div>
       </div>

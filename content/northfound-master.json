@@ -1,10 +1,11 @@
 {
-  "version": "1.1-visual-update",
+  "version": "2.0-rc",
+  "project": "NorthFound",
+  "current_release": "NorthFound 2.0 Release Candidate",
   "guide_01": {
     "title": "The Kitchen Reset",
     "pdf_link": "https://drive.google.com/file/d/1d2wwDpXBULFVaL6QR1g-dhxZV8N9S0EN/view?usp=drivesdk",
     "product_count": 10,
-    "visual_status": "unique editorial category images",
     "products": [
       "rubbermaid-brilliance-glass",
       "pyrex-simply-store",
@@ -17,5 +18,10 @@
       "youcopia-pot-lid-organizer",
       "youcopia-fridge-caddy"
     ]
+  },
+  "standards": {
+    "positioning": "Premium digital magazine for home organization",
+    "core_flow": "Pinterest -> Guide page -> Product pages -> Recommendation link",
+    "rule": "One guide, ten products, then next guide"
   }
 }

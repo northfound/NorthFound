@@ -1,11 +1,11 @@
-# NorthFound 2.0 Product Pages Pack
+# NorthFound 2.0 Homepage Pack
 
 Changed file:
-- app/recommendations/[slug]/page.tsx
+- app/page.tsx
 
 Goal:
-- Premium product page redesign
-- NorthFound Score™
-- Stronger hero and verdict
-- Related products
-- Better editorial trust
+- Premium homepage redesign
+- Stronger brand statement
+- Room-based collection entry points
+- Manifesto section
+- Featured products
