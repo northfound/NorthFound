@@ -25,6 +25,15 @@ export default function RecommendationPage({ params }: Props) {
       <p className="nf-eyebrow">Recommendation</p>
       <h1 className="nf-display text-[clamp(60px,8vw,120px)]">{item.name}</h1>
       <p className="nf-lead mt-8 max-w-[760px]">{item.summary}</p>
+
+      <div
+        className="mt-14 min-h-[420px] rounded-[42px] bg-cover bg-center shadow-nfFloating"
+        style={{
+          backgroundImage:
+            "linear-gradient(180deg, rgba(255,255,255,.05), rgba(20,20,20,.38)), url(https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1600&q=88)"
+        }}
+      />
+
       <section className="mt-16 grid gap-5 md:grid-cols-2">
         <div className="rounded-[32px] border border-nf-line bg-nf-white p-8 shadow-nfSoft"><h2 className="font-display text-5xl">NorthFound Index™</h2><div className="mt-8 space-y-4">{metrics.map(([k,v])=><div key={k} className="grid grid-cols-[1fr_auto] items-center gap-4"><span className="font-semibold">{k}</span><strong className="text-nf-forest">{v}</strong></div>)}</div></div>
         <div className="rounded-[32px] border border-nf-line bg-nf-white p-8 shadow-nfSoft"><h2 className="font-display text-5xl">Why we chose it</h2><p className="mt-6 text-nf-slate leading-8">It solves a clear storage problem while fitting the NorthFound standard for calm, useful and intentional organization.</p></div>
