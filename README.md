@@ -1,27 +1,25 @@
-# NorthFound Release One — Final Candidate
+# NorthFound Verified Release One
 
-This is the first complete Next.js build intended to replace the current static NorthFound site.
+This is a clean Next.js + Tailwind release candidate.
 
-## Included
+## Built
 - Home
 - Kitchen Collection
 - Our Method
-- Recommendations overview
-- 3 recommendation detail pages
+- Recommendations
+- Dynamic recommendation detail pages
 - Journal
 - About
-- Privacy Policy
+- Privacy
 - Affiliate Disclosure
-- Header / Footer
-- Design system
-- SEO metadata
-- Sitemap
-- Robots
+- Sitemap / robots
 - Netlify config
 
-## Deploy
-Upload the contents of this folder to the root of the GitHub repository.
+## Deploy on Netlify
+Build command:
+npm run build
 
-Netlify:
-- Build command: npm run build
-- Publish directory: .next
+Publish directory:
+.next
+
+The Netlify Next.js plugin is included in netlify.toml.

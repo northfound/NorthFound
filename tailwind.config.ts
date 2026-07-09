@@ -1,11 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./content/**/*.{ts,tsx,mdx}"
-  ],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./content/**/*.{ts,tsx,json}"],
   theme: {
     extend: {
       colors: {
@@ -27,13 +23,9 @@ const config: Config = {
         nfSoft: "0 18px 70px rgba(20,20,20,.08)",
         nfFloating: "0 34px 120px rgba(20,20,20,.16)"
       },
-      borderRadius: {
-        nf: "32px",
-        nfLarge: "48px"
-      }
+      borderRadius: { nfLarge: "48px" }
     }
   },
   plugins: []
 };
-
 export default config;
