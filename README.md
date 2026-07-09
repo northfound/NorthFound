@@ -1,11 +1,10 @@
-# NorthFound 2.0 Homepage Pack
+# NorthFound 2.0 Kitchen Pack
 
 Changed file:
-- app/page.tsx
+- app/collections/kitchen/page.tsx
 
 Goal:
-- Premium homepage redesign
-- Stronger brand statement
-- Room-based collection entry points
-- Manifesto section
-- Featured products
+- Premium Pinterest landing page
+- Stronger NorthFound Method section
+- Interactive reset steps with product matches
+- Better product hub and trust section
