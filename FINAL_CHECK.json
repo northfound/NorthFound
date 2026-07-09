@@ -1,0 +1,20 @@
+{
+  "package.json": true,
+  "netlify.toml": true,
+  "app/layout.tsx": true,
+  "app/page.tsx": true,
+  "app/collections/kitchen/page.tsx": true,
+  "app/method/page.tsx": true,
+  "app/recommendations/page.tsx": true,
+  "app/recommendations/rubbermaid-brilliance-glass/page.tsx": true,
+  "app/recommendations/pipishell-bamboo-drawer-organizer/page.tsx": true,
+  "app/recommendations/rubbermaid-brilliance-pantry/page.tsx": true,
+  "app/journal/page.tsx": true,
+  "app/about/page.tsx": true,
+  "app/privacy/page.tsx": true,
+  "app/affiliate-disclosure/page.tsx": true,
+  "components/layout/Header.tsx": true,
+  "components/layout/Footer.tsx": true,
+  "components/ui/Button.tsx": true,
+  "components/ui/RecommendationCard.tsx": true
+}

@@ -1,0 +1,8 @@
+{
+  "package.json": true,
+  "app/layout.tsx": true,
+  "app/page.tsx": true,
+  "components/layout/Header.tsx": true,
+  "components/layout/Footer.tsx": true,
+  "netlify.toml": true
+}

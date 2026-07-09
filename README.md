@@ -1,10 +1,27 @@
-# NorthFound v3.0
+# NorthFound Release One — Final Candidate
 
-Premium static website.
+This is the first complete Next.js build intended to replace the current static NorthFound site.
 
-Public-facing naming:
-- The Kitchen Edit
-- NorthFound Approved
-- No internal Guide/NF IDs visible
+## Included
+- Home
+- Kitchen Collection
+- Our Method
+- Recommendations overview
+- 3 recommendation detail pages
+- Journal
+- About
+- Privacy Policy
+- Affiliate Disclosure
+- Header / Footer
+- Design system
+- SEO metadata
+- Sitemap
+- Robots
+- Netlify config
 
-Deploy by uploading all files to the root of the `northfound` GitHub repository.
+## Deploy
+Upload the contents of this folder to the root of the GitHub repository.
+
+Netlify:
+- Build command: npm run build
+- Publish directory: .next
