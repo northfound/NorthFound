@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "rubbermaid-brilliance-glass",
+    "name": "Rubbermaid Brilliance Glass",
+    "tag": "Best Overall",
+    "category": "Kitchen Storage",
+    "score": 99,
+    "bestFor": "Meal prep, leftovers and airtight storage",
+    "summary": "Airtight, stackable glass storage for everyday kitchen organization.",
+    "link": "https://amzn.to/4pbK65W",
+    "notIdeal": "Large bulk storage or very tight budgets."
+  },
+  {
+    "slug": "pipishell-bamboo-drawer-organizer",
+    "name": "Pipishell Bamboo Drawer Organizer",
+    "tag": "Best Drawer Pick",
+    "category": "Drawer Organization",
+    "score": 97,
+    "bestFor": "Cleaner, more functional kitchen drawers",
+    "summary": "Expandable bamboo drawer storage with a warmer, more refined visual feel.",
+    "link": "https://amzn.to/4bj4zQr",
+    "notIdeal": "Very shallow drawers or users who prefer plastic inserts."
+  },
+  {
+    "slug": "rubbermaid-brilliance-pantry",
+    "name": "Rubbermaid Brilliance Pantry",
+    "tag": "Best Pantry Set",
+    "category": "Pantry Storage",
+    "score": 98,
+    "bestFor": "Dry goods, pasta, rice, flour and sugar",
+    "summary": "Airtight pantry storage with clear visibility and strong shelf rhythm.",
+    "link": "https://amzn.to/3QNq8lj",
+    "notIdeal": "Tiny cabinets or people who prefer glass-only storage."
+  }
+]
