@@ -1,12 +1,39 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 
-type ButtonProps = { href: string; children: ReactNode; variant?: "primary" | "secondary"; external?: boolean };
+type ButtonProps = {
+  href: string;
+  children: ReactNode;
+  variant?: "primary" | "secondary" | "ghost";
+  external?: boolean;
+};
 
 export function Button({ href, children, variant = "primary", external = false }: ButtonProps) {
-  const className = variant === "primary"
-    ? "inline-flex min-h-14 items-center justify-center rounded-full bg-nf-forest px-7 text-xs font-black uppercase tracking-[0.13em] text-white shadow-[0_18px_42px_rgba(79,102,80,.22)] no-underline"
-    : "inline-flex min-h-14 items-center justify-center rounded-full border border-nf-line bg-nf-white/60 px-7 text-xs font-black uppercase tracking-[0.13em] text-nf-charcoal no-underline";
-  if (external) return <a className={className} href={href} target="_blank" rel="nofollow sponsored noopener noreferrer">{children}</a>;
-  return <Link className={className} href={href}>{children}</Link>;
+  const base =
+    "inline-flex min-h-14 items-center justify-center rounded-full px-7 text-[11px] font-black uppercase tracking-[0.15em] no-underline transition duration-300 ease-out";
+
+  const variants = {
+    primary:
+      "bg-nf-charcoal text-white shadow-[0_22px_60px_rgba(17,17,17,.20)] hover:-translate-y-0.5 hover:shadow-[0_28px_80px_rgba(17,17,17,.25)]",
+    secondary:
+      "border border-nf-line bg-nf-white/70 text-nf-charcoal backdrop-blur-xl hover:-translate-y-0.5 hover:bg-nf-white",
+    ghost:
+      "text-nf-charcoal underline decoration-nf-brass/45 underline-offset-[7px] hover:decoration-nf-brass"
+  };
+
+  const className = `${base} ${variants[variant]}`;
+
+  if (external) {
+    return (
+      <a className={className} href={href} target="_blank" rel="nofollow sponsored noopener noreferrer">
+        {children}
+      </a>
+    );
+  }
+
+  return (
+    <Link className={className} href={href}>
+      {children}
+    </Link>
+  );
 }

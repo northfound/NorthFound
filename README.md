@@ -1,25 +1,14 @@
-# NorthFound Verified Release One
+# NorthFound 2.0 Foundation Pack
 
-This is a clean Next.js + Tailwind release candidate.
+Changed files:
+- app/globals.css
+- components/ui/Button.tsx
+- components/layout/Header.tsx
+- components/layout/Footer.tsx
 
-## Built
-- Home
-- Kitchen Collection
-- Our Method
-- Recommendations
-- Dynamic recommendation detail pages
-- Journal
-- About
-- Privacy
-- Affiliate Disclosure
-- Sitemap / robots
-- Netlify config
-
-## Deploy on Netlify
-Build command:
-npm run build
-
-Publish directory:
-.next
-
-The Netlify Next.js plugin is included in netlify.toml.
+Goal:
+- More premium brand system
+- Stronger navigation
+- Better buttons
+- Better footer
+- Shared global styling for the next redesign steps
