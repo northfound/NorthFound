@@ -11,11 +11,11 @@ const collections = [
     label: "Guide 01 live"
   },
   {
-    title: "Bathroom",
-    text: "Build a cleaner daily routine with fewer products and better zones.",
-    href: "/collections/kitchen",
-    image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=88",
-    label: "Coming next"
+    title: "Pantry",
+    text: "Reduce waste, make staples visible and build a pantry that resets in minutes.",
+    href: "/collections/pantry",
+    image: "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1600&q=88",
+    label: "Guide 02 live"
   },
   {
     title: "Laundry",

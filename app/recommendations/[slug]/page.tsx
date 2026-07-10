@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props) {
   const item = recommendations.find((r) => r.slug === params.slug);
   if (!item) return { title: "Recommendation" };
-  return { title: item.name, description: item.summary };
+  return { title: item.name, description: item.summary, openGraph: { title: `${item.name} - NorthFound Recommendation`, description: item.summary, url: `https://northfound.netlify.app/recommendations/${item.slug}`, siteName: "NorthFound", type: "article" } };
 }
 
 export default function RecommendationPage({ params }: Props) {
@@ -33,10 +33,16 @@ export default function RecommendationPage({ params }: Props) {
       <h1 className="nf-display text-[clamp(60px,8vw,120px)]">{item.name}</h1>
       <p className="nf-lead mt-8 max-w-[760px]">{item.summary}</p>
 
-      <div
-        className="mt-14 min-h-[420px] rounded-[42px] bg-cover bg-center shadow-nfFloating"
-        style={{ backgroundImage: `linear-gradient(180deg, rgba(255,255,255,.05), rgba(20,20,20,.38)), url(${item.visual})` }}
-      />
+      {item.visual.startsWith("/products/") ? (
+        <div className="mt-14 flex min-h-[420px] items-center justify-center overflow-hidden rounded-[42px] bg-[#f4f1eb] p-10 shadow-nfFloating">
+          <img src={item.visual} alt={item.name} className="max-h-[390px] w-full object-contain" />
+        </div>
+      ) : (
+        <div
+          className="mt-14 min-h-[420px] rounded-[42px] bg-cover bg-center shadow-nfFloating"
+          style={{ backgroundImage: `linear-gradient(180deg, rgba(255,255,255,.05), rgba(20,20,20,.38)), url(${item.visual})` }}
+        />
+      )}
 
       <section className="mt-16 grid gap-5 md:grid-cols-2">
         <div className="rounded-[32px] border border-nf-line bg-nf-white p-8 shadow-nfSoft">
@@ -78,7 +84,7 @@ export default function RecommendationPage({ params }: Props) {
         <p className="nf-lead">If a better option appears, this recommendation can change. The goal is trust, not attachment to old picks.</p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Button href={item.link} external>View on Amazon</Button>
-          <Button href="/collections/kitchen" variant="secondary">Back to Guide</Button>
+          <Button href={`/collections/${item.guideSlug || item.collection || "kitchen"}`} variant="secondary">Back to Guide</Button>
         </div>
       </section>
     </main>

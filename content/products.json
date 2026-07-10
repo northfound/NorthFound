@@ -20,7 +20,9 @@
     ],
     "link": "https://amzn.to/4pbK65W",
     "visual": "https://images.unsplash.com/photo-1591261730799-ee4e6c2d16d7?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "pyrex-simply-store",
@@ -43,7 +45,9 @@
     ],
     "link": "https://amzn.to/3SPEMJu",
     "visual": "https://images.unsplash.com/photo-1516824711718-9c1e683412ac?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "pipishell-drawer-organizer",
@@ -66,7 +70,9 @@
     ],
     "link": "https://amzn.to/4bj4zQr",
     "visual": "https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "youcopia-crazy-susan",
@@ -89,7 +95,9 @@
     ],
     "link": "https://amzn.to/44YdV0h",
     "visual": "https://images.unsplash.com/photo-1605522561233-768ad7a8fabf?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "simple-houseware-under-sink",
@@ -112,7 +120,9 @@
     ],
     "link": "https://amzn.to/4ydJdhf",
     "visual": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "copco-spice-rack",
@@ -135,7 +145,9 @@
     ],
     "link": "https://amzn.to/3T6oDze",
     "visual": "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "rubbermaid-brilliance-pantry",
@@ -158,7 +170,9 @@
     ],
     "link": "https://amzn.to/3QNq8lj",
     "visual": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "amazon-basics-shelf-risers",
@@ -181,7 +195,9 @@
     ],
     "link": "https://amzn.to/4ybgn0R",
     "visual": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "youcopia-pot-lid-organizer",
@@ -204,7 +220,9 @@
     ],
     "link": "https://amzn.to/3ST8fC7",
     "visual": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
   },
   {
     "slug": "youcopia-fridge-caddy",
@@ -227,6 +245,258 @@
     ],
     "link": "https://amzn.to/4eSkmrH",
     "visual": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=1200&q=86",
-    "guide": "The Kitchen Reset"
+    "guide": "The Kitchen Reset",
+    "collection": "kitchen",
+    "guideSlug": "kitchen"
+  },
+  {
+    "slug": "vtopmart-clear-storage-bins",
+    "name": "Vtopmart Clear Storage Bins (6-Pack)",
+    "tag": "Best Clear Storage",
+    "category": "Pantry Bins",
+    "score": 95,
+    "bestFor": "Creating clear zones for snacks, packets and pantry staples",
+    "summary": "A versatile set of clear bins that makes pantry categories visible, portable and easier to maintain.",
+    "why": "The integrated handles and transparent design make it simple to group similar items without hiding what you already own.",
+    "pros": [
+      "Clear visibility",
+      "Integrated handles",
+      "Flexible zone storage",
+      "Useful across shelf sizes"
+    ],
+    "cons": [
+      "Not airtight",
+      "Requires measuring shelf depth"
+    ],
+    "link": "https://amzn.to/4wyIohl",
+    "visual": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "oxo-pop-container-set",
+    "name": "OXO Good Grips 5-Piece POP Container Set",
+    "tag": "Best Modular System",
+    "category": "Dry Food Storage",
+    "score": 97,
+    "bestFor": "Building a flexible airtight pantry system",
+    "summary": "A modular airtight container set that keeps pantry staples fresh, visible and easy to stack.",
+    "why": "The reliable seal, clean shape and modular sizing make it one of the strongest long-term systems for dry pantry goods.",
+    "pros": [
+      "Airtight push-button seal",
+      "Modular and stackable",
+      "Easy to clean",
+      "Established premium brand"
+    ],
+    "cons": [
+      "Higher upfront cost",
+      "Five pieces may not cover a large pantry"
+    ],
+    "link": "https://amzn.to/4faJLMe",
+    "visual": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "youcopia-shelfbin-stacking-bins",
+    "name": "YouCopia ShelfBin Stacking Pantry Bins",
+    "tag": "Best Stacking Bin",
+    "category": "Vertical Storage",
+    "score": 96,
+    "bestFor": "Using vertical shelf space without losing access",
+    "summary": "Stackable open-front bins that create extra pantry levels while keeping everyday items within reach.",
+    "why": "Unlike deep closed bins, the open front keeps contents accessible even when the bins are stacked.",
+    "pros": [
+      "Secure stacking",
+      "Open-front access",
+      "Strong vertical-space use",
+      "Good for snacks and packets"
+    ],
+    "cons": [
+      "Not airtight",
+      "Best suited to lightweight items"
+    ],
+    "link": "https://amzn.to/4aKnfbJ",
+    "visual": "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "simple-houseware-can-rack",
+    "name": "Simple Houseware Stackable Can Rack Organizer",
+    "tag": "Best Can Organizer",
+    "category": "Canned Goods",
+    "score": 95,
+    "bestFor": "Keeping canned goods visible and orderly",
+    "summary": "A high-capacity rack that turns loose can stacks into a stable, easy-to-scan pantry zone.",
+    "why": "Adjustable dividers and tiered storage make it easier to see inventory and use older cans before buying duplicates.",
+    "pros": [
+      "Large capacity",
+      "Adjustable dividers",
+      "Stackable design",
+      "Improves inventory visibility"
+    ],
+    "cons": [
+      "Needs sufficient shelf depth",
+      "Works best with standard can sizes"
+    ],
+    "link": "https://amzn.to/44nqdzb",
+    "visual": "https://images.unsplash.com/photo-1621939514649-280e2aa9454f?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "joseph-joseph-undershelf-drawer",
+    "name": "Joseph Joseph CupboardStore Under-Shelf Drawer",
+    "tag": "Best Hidden Storage",
+    "category": "Small Item Storage",
+    "score": 94,
+    "bestFor": "Using the empty space beneath pantry shelves",
+    "summary": "A compact under-shelf drawer for tea bags, packets and small ingredients that usually disappear.",
+    "why": "It creates a useful storage zone in space most cupboards leave completely unused.",
+    "pros": [
+      "Uses hidden space",
+      "Tool-free installation",
+      "Premium compact design",
+      "Ideal for small packets"
+    ],
+    "cons": [
+      "Limited weight capacity",
+      "Adhesive fit depends on shelf surface"
+    ],
+    "link": "https://amzn.to/4vS3Ei7",
+    "visual": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "idesign-linus-deep-pantry-bin",
+    "name": "iDesign Linus Deep Pantry Bin",
+    "tag": "Best Deep Pantry Bin",
+    "category": "Deep Shelf Storage",
+    "score": 96,
+    "bestFor": "Making deep pantry shelves easier to use",
+    "summary": "A clear handled bin that creates pull-out zones for snacks, baking supplies and packaged foods.",
+    "why": "Its long profile and integrated handle turn a deep shelf into a simple, visible pull-out system.",
+    "pros": [
+      "Excellent for deep shelves",
+      "Clear durable construction",
+      "Integrated handle",
+      "Very versatile"
+    ],
+    "cons": [
+      "Not stackable in every setup",
+      "Not designed for loose unwrapped food"
+    ],
+    "link": "https://amzn.to/3R1G2so",
+    "visual": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "youcopia-upspace-bottle-organizer",
+    "name": "YouCopia UpSpace Water Bottle Organizer",
+    "tag": "Best Bottle Storage",
+    "category": "Bottle Organization",
+    "score": 95,
+    "bestFor": "Separating bottles, tumblers and pantry liquids",
+    "summary": "An adjustable tiered rack that keeps bottles stable, separated and easier to reach.",
+    "why": "Bottle collections are difficult to stack; this system gives them structure while using vertical space efficiently.",
+    "pros": [
+      "Adjustable shelves",
+      "Fits varied bottle sizes",
+      "Strong vertical storage",
+      "Keeps bottles stable"
+    ],
+    "cons": [
+      "Requires cabinet height",
+      "Large collections may need more than one unit"
+    ],
+    "link": "https://amzn.to/450UC6x",
+    "visual": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "youcopia-bakeware-rack",
+    "name": "YouCopia StoreMore Adjustable Bakeware Rack",
+    "tag": "Best Vertical Organizer",
+    "category": "Bakeware Storage",
+    "score": 96,
+    "bestFor": "Storing trays, boards and bakeware upright",
+    "summary": "An adjustable divider rack that turns unstable flat stacks into a visible vertical system.",
+    "why": "Vertical separation makes heavy, flat kitchen items easier to retrieve without unstacking an entire pile.",
+    "pros": [
+      "Adjustable dividers",
+      "Non-slip base",
+      "Protects surfaces",
+      "Works for multiple flat-item categories"
+    ],
+    "cons": [
+      "Needs cabinet depth",
+      "Not a traditional food-pantry product"
+    ],
+    "link": "https://amzn.to/3Tdbl41",
+    "visual": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "idesign-lazy-susan",
+    "name": "iDesign Plastic Lazy Susan Turntable Organizer",
+    "tag": "Best Pantry Turntable",
+    "category": "Rotating Storage",
+    "score": 95,
+    "bestFor": "Oils, sauces and jars on deep shelves",
+    "summary": "A clear rotating tray that brings bottles and jars from the back of the shelf directly to you.",
+    "why": "Its simple open design is more flexible than divided turntables and works across many pantry categories.",
+    "pros": [
+      "Smooth rotation",
+      "Clear compact design",
+      "Highly versatile",
+      "Easy to clean"
+    ],
+    "cons": [
+      "Overlaps in function with other turntables",
+      "Tall bottles require careful placement"
+    ],
+    "link": "https://amzn.to/4aMKFgv",
+    "visual": "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
+  },
+  {
+    "slug": "pokipo-over-door-pantry-organizer",
+    "name": "POKIPO 6-Tier Over-the-Door Pantry Organizer",
+    "tag": "Best Door Storage",
+    "category": "Door Storage",
+    "score": 92,
+    "bestFor": "Turning unused pantry-door space into storage",
+    "summary": "A six-tier hanging organizer that adds substantial storage without consuming another shelf.",
+    "why": "It completes the pantry system by using one of the most overlooked surfaces: the inside of the door.",
+    "pros": [
+      "Adds six storage tiers",
+      "Uses otherwise wasted space",
+      "No cabinet remodeling",
+      "Good for bottles, packets and jars"
+    ],
+    "cons": [
+      "Door clearance must be checked",
+      "Less established brand than our premium picks"
+    ],
+    "link": "https://amzn.to/4wxSnTY",
+    "visual": "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1200&q=86",
+    "guide": "The Pantry Reset",
+    "collection": "pantry",
+    "guideSlug": "pantry"
   }
 ]

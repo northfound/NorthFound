@@ -1,8 +1,14 @@
 {
-  "package.json": true,
-  "app/layout.tsx": true,
-  "app/page.tsx": true,
-  "components/layout/Header.tsx": true,
-  "components/layout/Footer.tsx": true,
-  "netlify.toml": true
+  "release": "NorthFound 2.1 Pantry Launch Candidate",
+  "build": "PASS",
+  "staticPages": 34,
+  "recommendationPages": 20,
+  "pantryProducts": 10,
+  "pdf": "public/guides/the-pantry-reset.pdf",
+  "pdfSizeBytes": 3594225,
+  "verifiedRoutes": [
+    "/collections/pantry",
+    "/guides/the-pantry-reset.pdf"
+  ],
+  "verifiedAt": "2026-07-10"
 }

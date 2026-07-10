@@ -14,6 +14,8 @@ export type Recommendation = {
   link: string;
   visual: string;
   guide: string;
+  collection?: string;
+  guideSlug?: string;
 };
 
 export function RecommendationCard({ item }: { item: Recommendation }) {
@@ -21,13 +23,19 @@ export function RecommendationCard({ item }: { item: Recommendation }) {
     <article className="overflow-hidden rounded-[34px] border border-nf-line bg-nf-white shadow-nfSoft">
       <Link
         href={`/recommendations/${item.slug}`}
-        className="relative flex min-h-[310px] items-end overflow-hidden p-6 text-left no-underline"
-        style={{
+        className={`relative flex min-h-[310px] items-end overflow-hidden p-6 text-left no-underline ${item.visual.startsWith("/products/") ? "bg-[#f4f1eb]" : ""}`}
+        style={item.visual.startsWith("/products/") ? undefined : {
           backgroundImage: `linear-gradient(180deg, rgba(20,20,20,.08), rgba(20,20,20,.62)), url(${item.visual})`,
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
       >
+        {item.visual.startsWith("/products/") && (
+          <>
+            <img src={item.visual} alt={item.name} className="absolute inset-0 h-full w-full object-contain p-9" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/5 to-transparent" />
+          </>
+        )}
         <span className="absolute left-5 top-5 rounded-full bg-nf-charcoal px-3 py-2 text-[9px] font-black uppercase tracking-[0.12em] text-white">
           NorthFound Approved
         </span>
