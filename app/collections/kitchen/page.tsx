@@ -19,6 +19,8 @@ export const metadata = {
 const guideLink =
   "https://drive.google.com/file/d/1d2wwDpXBULFVaL6QR1g-dhxZV8N9S0EN/view?usp=drivesdk";
 
+const kitchen = recommendations.filter((item) => item.collection === "kitchen");
+
 const principles = [
   "Visibility beats capacity.",
   "Store by frequency, not by category.",
@@ -168,7 +170,7 @@ export default function KitchenCollectionPage() {
         </div>
 
         <div className="mt-14 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-          {recommendations.map((item) => (
+          {kitchen.map((item) => (
             <RecommendationCard key={item.slug} item={item} />
           ))}
         </div>

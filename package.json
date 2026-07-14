@@ -4,21 +4,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "tsc --noEmit",
+    "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "5.6.0",
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "@netlify/plugin-nextjs": "5.15.12",
+    "next": "15.5.20",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
   },
   "devDependencies": {
     "@types/node": "20.14.10",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
     "autoprefixer": "10.4.19",
-    "postcss": "8.4.40",
+    "postcss": "8.5.10",
     "tailwindcss": "3.4.7",
     "typescript": "5.5.4"
+  },
+  "engines": {
+    "node": ">=20 <23"
   }
 }

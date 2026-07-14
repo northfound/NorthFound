@@ -4,11 +4,12 @@ import Link from "next/link";
 const links = [
   { href: "/collections/kitchen", label: "Kitchen" },
   { href: "/collections/pantry", label: "Pantry" },
-  { href: "/recommendations", label: "Recommendations" },
+  { href: "/collections/laundry", label: "Laundry" },
+  { href: "/recommendations", label: "Selections" },
   { href: "/method", label: "Method" },
   { href: "/about", label: "About" },
   { href: "/privacy", label: "Privacy" },
-  { href: "/affiliate-disclosure", label: "Affiliate" }
+  { href: "/affiliate-disclosure", label: "Affiliate Disclosure" }
 ];
 
 export function Footer() {
@@ -24,7 +25,7 @@ export function Footer() {
             {links.map((item) => <Link key={item.href} href={item.href} className="no-underline transition hover:text-white">{item.label}</Link>)}
           </div>
           <p className="mt-8 max-w-[760px] text-sm leading-7 text-white/48">
-            As an Amazon Associate, NorthFound earns from qualifying purchases. We only recommend products that support calmer, more useful home systems.
+            As an Amazon Associate I earn from qualifying purchases. Product selections are editorial and designed to support calmer, more useful home systems.
           </p>
         </div>
       </div>

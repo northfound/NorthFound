@@ -1,14 +1,138 @@
 {
-  "release": "NorthFound 2.1 Pantry Launch Candidate",
+  "release": "NorthFound 2.2.0 Laundry Reset",
+  "checkedAt": "2026-07-12",
   "build": "PASS",
-  "staticPages": 34,
-  "recommendationPages": 20,
-  "pantryProducts": 10,
-  "pdf": "public/guides/the-pantry-reset.pdf",
-  "pdfSizeBytes": 3594225,
-  "verifiedRoutes": [
-    "/collections/pantry",
-    "/guides/the-pantry-reset.pdf"
+  "typescript": "PASS",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 58250
+    },
+    {
+      "path": "/collections/laundry",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 122624
+    },
+    {
+      "path": "/recommendations",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 201959
+    },
+    {
+      "path": "/affiliate-disclosure",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 20358
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 3750
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "bytes": 76
+    },
+    {
+      "path": "/guides/the-laundry-reset.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1808348
+    },
+    {
+      "path": "/recommendations/jasai-glass-soap-dispenser",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32495
+    },
+    {
+      "path": "/recommendations/homestead-houseware-wool-dryer-balls",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32560
+    },
+    {
+      "path": "/recommendations/joseph-joseph-tota-90l-laundry-basket",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32703
+    },
+    {
+      "path": "/recommendations/spaceaid-bamboo-drawer-dividers",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32442
+    },
+    {
+      "path": "/recommendations/anchor-hocking-heritage-hill-glass-jars",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32799
+    },
+    {
+      "path": "/recommendations/brabantia-hangon-drying-rack",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34048
+    },
+    {
+      "path": "/recommendations/bagail-mesh-laundry-bags",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32371
+    },
+    {
+      "path": "/recommendations/storageworks-wicker-storage-baskets",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32648
+    },
+    {
+      "path": "/recommendations/boxlegend-shirt-folder-v7",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32176
+    },
+    {
+      "path": "/recommendations/storageworks-wooden-hangers",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32297
+    }
   ],
-  "verifiedAt": "2026-07-10"
+  "recommendationsTotal": 30,
+  "laundryProducts": 10,
+  "affiliateLinks": [
+    "https://amzn.to/44Xub1A",
+    "https://amzn.to/4vqCLRy",
+    "https://amzn.to/3RcNFfr",
+    "https://amzn.to/4w45fl6",
+    "https://amzn.to/453YUtT",
+    "https://amzn.to/4ydQy0p",
+    "https://amzn.to/4wJ80Z7",
+    "https://amzn.to/4w1h77v",
+    "https://amzn.to/4vUuiHf",
+    "https://amzn.to/4aO68Ws"
+  ],
+  "pdf": {
+    "path": "/guides/the-laundry-reset.pdf",
+    "bytes": 1808348,
+    "sha256": "660304faa5d5b64444e47517c4d9935b0439c38dfb43bcad4ed9adeca61661a1",
+    "pages": 15
+  },
+  "securityHeaders": "PASS",
+  "legacyTrustClaimsRemoved": "PASS",
+  "errors": [],
+  "overall": "PASS",
+  "archiveFreshInstall": "PASS",
+  "archiveFreshTypeCheck": "PASS",
+  "archiveFreshProductionBuild": "PASS",
+  "archiveFileCount": 67
 }

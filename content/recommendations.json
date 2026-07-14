@@ -387,7 +387,7 @@
       "Four divided sections",
       "Clear visibility",
       "Compact countertop or shelf footprint",
-      "Amazon\u2019s Choice product"
+      "Amazon’s Choice product"
     ],
     "cons": [
       "Not suitable for large bags",
@@ -498,5 +498,275 @@
     "guide": "The Pantry Reset",
     "collection": "pantry",
     "guideSlug": "pantry"
+  },
+  {
+    "slug": "jasai-glass-soap-dispenser",
+    "name": "JASAI Clear Glass Soap Dispenser",
+    "tag": "Best Detergent Decanter",
+    "category": "Laundry Essentials",
+    "score": 95,
+    "bestFor": "A calmer everyday detergent station",
+    "summary": "A clear 18-ounce glass dispenser that gives frequently used liquid detergent or stain solution a tidy, permanent home.",
+    "why": "It supports the guide's principle that everyday essentials should be visible, easy to reach and simple to put back. The clean glass profile also reduces the visual noise of mismatched packaging.",
+    "pros": [
+      "Clear glass makes contents easy to see",
+      "Pump format supports controlled dispensing",
+      "Compact enough for a tray or shelf",
+      "Neutral design fits calm laundry spaces"
+    ],
+    "cons": [
+      "Best for frequently used liquids rather than bulk storage",
+      "Glass needs sensible placement around hard floors"
+    ],
+    "link": "https://amzn.to/44Xub1A",
+    "visual": "/products/laundry/jasai-glass-soap-dispenser.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B07Q8Y8GWN"
+  },
+  {
+    "slug": "homestead-houseware-wool-dryer-balls",
+    "name": "Homestead Houseware XL Wool Dryer Balls – 6-Pack",
+    "tag": "Best Reusable Dryer Essential",
+    "category": "Drying",
+    "score": 94,
+    "bestFor": "A simpler reusable drying routine",
+    "summary": "A six-pack of XL wool dryer balls designed to replace single-use dryer sheets and stay ready beside the machine.",
+    "why": "A reusable set removes one recurring purchase and gives the drying stage a clear, repeatable tool. It fits the NorthFound preference for fewer products that earn a permanent place.",
+    "pros": [
+      "Reusable six-ball set",
+      "Easy to keep together in one basket or jar",
+      "Supports a low-friction drying routine",
+      "Neutral natural-wool appearance"
+    ],
+    "cons": [
+      "Not suitable for every fabric-care preference",
+      "Needs to be gathered after each cycle"
+    ],
+    "link": "https://amzn.to/4vqCLRy",
+    "visual": "/products/laundry/homestead-wool-dryer-balls.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B0F8ZDC626"
+  },
+  {
+    "slug": "joseph-joseph-tota-90l-laundry-basket",
+    "name": "Joseph Joseph Tota 90L Laundry Separation Basket",
+    "tag": "Best Sorting System",
+    "category": "Sorting",
+    "score": 98,
+    "bestFor": "Separating loads before laundry day",
+    "summary": "A two-compartment 90-litre laundry basket that turns sorting into part of the daily system rather than another decision later.",
+    "why": "The guide's flow begins with dirty laundry and sorting. Separate removable bags make that first transition visible and easier to maintain in real life.",
+    "pros": [
+      "Two compartments support pre-sorting",
+      "Removable tote bags simplify transfer",
+      "Large capacity suits shared households",
+      "Ecru finish feels calm and considered"
+    ],
+    "cons": [
+      "Requires more floor space than a basic hamper",
+      "Premium price compared with a single basket"
+    ],
+    "link": "https://amzn.to/3RcNFfr",
+    "visual": "/products/laundry/joseph-joseph-tota-laundry-hamper.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B0BS1BXM4N"
+  },
+  {
+    "slug": "spaceaid-bamboo-drawer-dividers",
+    "name": "SpaceAid Bamboo Drawer Dividers – 4-Pack",
+    "tag": "Best Drawer Reset",
+    "category": "Storage",
+    "score": 95,
+    "bestFor": "Creating permanent homes for small laundry items",
+    "summary": "Adjustable bamboo dividers with inserts for building clear zones inside utility, linen or laundry drawers.",
+    "why": "The Laundry Reset asks every category to have a permanent home. Adjustable dividers stop small tools, cloths and accessories from becoming one mixed drawer.",
+    "pros": [
+      "Adjustable to fit many drawer widths",
+      "Includes smaller inserts for sub-zones",
+      "Warm bamboo finish suits the guide aesthetic",
+      "Can adapt as the system changes"
+    ],
+    "cons": [
+      "Drawers must be measured before ordering",
+      "Not useful where open-shelf storage is preferred"
+    ],
+    "link": "https://amzn.to/4w45fl6",
+    "visual": "/products/laundry/spaceaid-bamboo-drawer-dividers.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B094624Q8Z"
+  },
+  {
+    "slug": "anchor-hocking-heritage-hill-glass-jars",
+    "name": "Anchor Hocking Heritage Hill 1-Gallon Glass Jars – Set of 2",
+    "tag": "Best Bulk Storage",
+    "category": "Visible Storage",
+    "score": 96,
+    "bestFor": "Keeping powder, pods or clothespins visible",
+    "summary": "Two one-gallon glass jars that create clear, durable storage for bulk laundry essentials without hiding what remains.",
+    "why": "Visible storage reduces repeat decisions and helps prevent running out unexpectedly. The wide opening also makes refilling and everyday access straightforward.",
+    "pros": [
+      "Clear glass improves visibility",
+      "Wide mouth is easy to refill",
+      "Two jars create a consistent shelf rhythm",
+      "Timeless profile suits open shelving"
+    ],
+    "cons": [
+      "Lids are not intended as fully airtight seals",
+      "Large glass jars need stable shelf space"
+    ],
+    "link": "https://amzn.to/453YUtT",
+    "visual": "/products/laundry/anchor-hocking-heritage-hill-jars.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B01EIJ0P6W"
+  },
+  {
+    "slug": "brabantia-hangon-drying-rack",
+    "name": "Brabantia HangOn Drying Rack 20m + Rod – Matt Black",
+    "tag": "Best Drying System",
+    "category": "Drying",
+    "score": 97,
+    "bestFor": "Air-drying complete loads without permanent clutter",
+    "summary": "A fold-flat drying rack with 20 metres of drying space, adjustable wings, hanger hooks and a garment rod.",
+    "why": "It gives the drying stage a dedicated system while folding away when the job is finished. That balance of capacity and easy reset directly supports the guide's natural laundry flow.",
+    "pros": [
+      "20 metres of flexible drying space",
+      "Garment rod and hanger hooks",
+      "Adjustable wings for different item lengths",
+      "Folds flat for compact storage"
+    ],
+    "cons": [
+      "Needs open floor space while in use",
+      "Larger investment than a basic airer"
+    ],
+    "link": "https://amzn.to/4ydQy0p",
+    "visual": "https://www.brabantia.com/cdn-cgi/image/format%3Dauto%2Conerror%3Dredirect/media/catalog/product/cache/da8ca718b462f9821c84b1d4efca683d/4/0/403620_product_shot_front_03_web.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B0DW4X4D5Q"
+  },
+  {
+    "slug": "bagail-mesh-laundry-bags",
+    "name": "BAGAIL Mesh Laundry Bags – 5-Piece Set",
+    "tag": "Best Delicates System",
+    "category": "Washing",
+    "score": 94,
+    "bestFor": "Keeping delicates and small garments together",
+    "summary": "A five-piece set of fine-mesh wash bags in multiple sizes for separating lingerie, knitwear and small garments before washing.",
+    "why": "The bags reduce repeated sorting decisions and stop small items from disappearing into the load. Multiple sizes make the system flexible without becoming complicated.",
+    "pros": [
+      "Five bags in useful sizes",
+      "Fine mesh supports garment separation",
+      "Helps small items stay together",
+      "Stores flat between uses"
+    ],
+    "cons": [
+      "Zippers should be tucked before washing",
+      "Requires a simple return-to-storage habit"
+    ],
+    "link": "https://amzn.to/4wJ80Z7",
+    "visual": "/products/laundry/bagail-mesh-laundry-bags.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B017NEYOQQ"
+  },
+  {
+    "slug": "storageworks-wicker-storage-baskets",
+    "name": "StorageWorks Wicker Storage Baskets – Medium 2-Pack",
+    "tag": "Best Shelf Storage",
+    "category": "Laundry Organization",
+    "score": 96,
+    "bestFor": "Hiding small supplies without losing structure",
+    "summary": "Two handwoven water-hyacinth baskets with metal frames and integrated handles for calm, accessible shelf storage.",
+    "why": "The guide calls for clear zones and less visual noise. These baskets group refills, wash bags or stain-care tools while preserving the warm, natural look of the space.",
+    "pros": [
+      "Natural woven texture softens open shelving",
+      "Handles make categories easy to move",
+      "Metal frame helps hold the shape",
+      "Two baskets support distinct zones"
+    ],
+    "cons": [
+      "Opaque sides reduce instant visibility",
+      "Natural materials can vary slightly"
+    ],
+    "link": "https://amzn.to/4w1h77v",
+    "visual": "/products/laundry/storageworks-wicker-baskets.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B07MFTTPFG"
+  },
+  {
+    "slug": "boxlegend-shirt-folder-v7",
+    "name": "BoxLegend Shirt Folder V7 Metal – Black",
+    "tag": "Best Folding Tool",
+    "category": "Folding",
+    "score": 93,
+    "bestFor": "Fast, consistent folds before storage",
+    "summary": "A reinforced folding board for creating uniform stacks of shirts, knitwear, trousers and towels.",
+    "why": "Folding is the point where clean laundry often stalls. A repeatable motion lowers friction, creates neater stacks and makes the next storage step easier to finish immediately.",
+    "pros": [
+      "Creates consistent folds",
+      "Works across several garment types",
+      "Folds down for compact storage",
+      "Reinforced construction suits repeat use"
+    ],
+    "cons": [
+      "Adds a tool to a task some people prefer to do by hand",
+      "Best results require a little practice"
+    ],
+    "link": "https://amzn.to/4vUuiHf",
+    "visual": "/products/laundry/boxlegend-shirt-folder-v7.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B0CRDMWWQV"
+  },
+  {
+    "slug": "storageworks-wooden-hangers",
+    "name": "StorageWorks Wooden Hangers – 20-Pack",
+    "tag": "Best Ready-to-Wear Finish",
+    "category": "Storage",
+    "score": 95,
+    "bestFor": "Moving finished garments directly into the wardrobe",
+    "summary": "A coordinated 20-pack of natural wooden hangers for shirts, jackets, dresses, trousers and suits.",
+    "why": "The guide's final step is storage to ready-to-wear. Matching hangers give finished garments a clear destination and make the closet easier to scan and reset.",
+    "pros": [
+      "Consistent hangers reduce visual noise",
+      "Contoured shoulders support garments",
+      "Trouser bar and notches increase flexibility",
+      "Natural wood complements the collection"
+    ],
+    "cons": [
+      "Uses more rail space than slim hangers",
+      "Heavier than plastic or velvet alternatives"
+    ],
+    "link": "https://amzn.to/4aO68Ws",
+    "visual": "/products/laundry/storageworks-wooden-hangers.jpg",
+    "visualType": "product",
+    "guide": "The Laundry Reset",
+    "collection": "laundry",
+    "guideSlug": "laundry",
+    "asin": "B0BLH5HPYM"
   }
 ]

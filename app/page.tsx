@@ -20,9 +20,9 @@ const collections = [
   {
     title: "Laundry",
     text: "Turn laundry from a recurring mess into a simple weekly system.",
-    href: "/collections/kitchen",
-    image: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1600&q=88",
-    label: "Roadmap"
+    href: "/collections/laundry",
+    image: "/images/laundry-room-editorial.jpg",
+    label: "Guide 03 live"
   },
   {
     title: "Closet",
@@ -36,7 +36,11 @@ const collections = [
 const principles = ["Buy less.", "Choose better.", "Organize with intention.", "Create calm."];
 
 export default function HomePage() {
-  const featured = recommendations.slice(0, 3);
+  const featured = [
+    recommendations.find((item) => item.collection === "kitchen"),
+    recommendations.find((item) => item.collection === "pantry"),
+    recommendations.find((item) => item.collection === "laundry")
+  ].filter(Boolean) as typeof recommendations;
 
   return (
     <main>
@@ -49,7 +53,7 @@ export default function HomePage() {
               Practical systems, carefully selected products and free guides that help you remove friction from everyday life.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <Button href="/collections/kitchen">Start Your Home Reset</Button>
+              <Button href="/collections/laundry">Start Your Home Reset</Button>
               <Button href="/method" variant="secondary">The NorthFound Method</Button>
             </div>
             <div className="mt-12 grid max-w-[720px] grid-cols-4 gap-3 max-sm:grid-cols-2">
@@ -66,16 +70,16 @@ export default function HomePage() {
               className="min-h-[680px] rounded-[54px] bg-cover bg-center shadow-nfFloating max-md:min-h-[460px]"
               style={{
                 backgroundImage:
-                  "linear-gradient(180deg, rgba(255,255,255,.02), rgba(17,17,17,.45)), url(https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1800&q=88)"
+                  "linear-gradient(180deg, rgba(255,255,255,.02), rgba(17,17,17,.32)), url(/images/laundry-room-editorial.jpg)"
               }}
             />
             <div className="absolute bottom-8 left-8 right-8 rounded-[34px] border border-white/60 bg-nf-ivory/90 p-8 shadow-nfSoft backdrop-blur-2xl max-md:bottom-4 max-md:left-4 max-md:right-4 max-md:p-5">
               <p className="text-[11px] font-black uppercase tracking-[0.16em] text-nf-brass">Featured Guide</p>
-              <h2 className="mt-3 font-display text-[clamp(38px,4vw,64px)] leading-none tracking-[-.05em]">The Kitchen Reset</h2>
+              <h2 className="mt-3 font-display text-[clamp(38px,4vw,64px)] leading-none tracking-[-.05em]">The Laundry Reset</h2>
               <p className="mt-4 leading-7 text-nf-slate">
-                15 practical kitchen upgrades and 10 curated products to make the busiest room in your home easier to use.
+                A free 15-page guide and 10 thoughtfully selected tools for a calmer routine from sorting to ready to wear.
               </p>
-              <div className="mt-6"><Button href="/collections/kitchen">Open Guide</Button></div>
+              <div className="mt-6"><Button href="/collections/laundry">Open Guide</Button></div>
             </div>
           </div>
         </div>
@@ -140,7 +144,7 @@ export default function HomePage() {
       <section className="px-[clamp(22px,5vw,72px)] py-[clamp(80px,10vw,150px)]">
         <div className="nf-shell">
           <div className="mb-12 max-w-[900px]">
-            <p className="nf-eyebrow">NorthFound Approved</p>
+            <p className="nf-eyebrow">NorthFound Selections</p>
             <h2 className="nf-display text-[clamp(54px,8vw,118px)]">Fewer products. Stronger recommendations.</h2>
             <p className="nf-lead mt-8">
               We do not recommend products because they are popular. We recommend them because they solve a real household problem.

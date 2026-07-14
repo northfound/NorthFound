@@ -1,0 +1,17 @@
+{
+  "release": "NorthFound 2.2.3 collection correction",
+  "checkedAt": "2026-07-14",
+  "checks": {
+    "kitchenCollectionFilter": "collection === kitchen",
+    "kitchenProductsExpected": 10,
+    "kitchenProductsFound": 10,
+    "pantryProductsFound": 10,
+    "laundryProductsFound": 10,
+    "collectionPaidLinksStripRemoved": true,
+    "footerAmazonAssociateDisclosureRetained": true,
+    "dedicatedAffiliateDisclosurePageRetained": true,
+    "affiliateUrlsChanged": false,
+    "productDataChanged": false
+  },
+  "result": "PASS"
+}

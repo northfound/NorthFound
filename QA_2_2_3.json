@@ -1,0 +1,23 @@
+{
+  "release": "NorthFound 2.2.3 Collection Fix",
+  "checkedAt": "2026-07-14",
+  "typescript": "PASS",
+  "productionBuild": "PASS",
+  "staticPagesGenerated": 45,
+  "collectionCounts": {
+    "kitchen": 10,
+    "pantry": 10,
+    "laundry": 10
+  },
+  "kitchenRouteUniqueRecommendationLinks": 10,
+  "laundryRouteUniqueRecommendationLinks": 10,
+  "collectionPaidLinksTextOccurrences": {
+    "kitchen": 0,
+    "laundry": 0
+  },
+  "footerAmazonAssociateDisclosureRetained": true,
+  "dedicatedAffiliateDisclosurePageRetained": true,
+  "affiliateUrlsChanged": false,
+  "productDataChanged": false,
+  "result": "PASS"
+}

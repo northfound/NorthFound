@@ -1,18 +1,40 @@
-# NorthFound 2.1 Pantry Launch Candidate
+# NorthFound 2.2.3 — Laundry Reset Release
 
-Complete source project based on the verified NorthFound 2.0 Release Candidate.
+Production-ready Next.js source for the NorthFound website.
 
-## Added
-- The Pantry Reset collection page
-- Optimized 17-page guide PDF
-- 10 Pantry products and affiliate links
-- 10 Pantry recommendation pages
-- Homepage, header, footer and sitemap integration
-- Persistent NorthFound Engine master data
+## This release adds
 
-## Verified
-- `npm run build` passes
-- `/collections/pantry` returns HTTP 200
-- `/guides/the-pantry-reset.pdf` returns HTTP 200
+- The complete `/collections/laundry` experience.
+- The compressed 15-page **The Laundry Reset** PDF at `/guides/the-laundry-reset.pdf`.
+- Ten Laundry Collection selections with individual detail pages, affiliate links, ASIN references and product imagery.
+- Laundry navigation, homepage promotion, metadata, structured data and sitemap coverage.
+- Clean **View Product** calls to action with site-wide affiliate disclosure.
+- Transparent editorial product pages without fabricated ratings, scores or implied laboratory testing.
 
-See `PANTRY_RELEASE_CHECKLIST.md` for local testing and publishing.
+## Local verification
+
+```bash
+npm ci
+npm run build
+npm run start
+```
+
+Then open `http://localhost:3000` and verify:
+
+- `/`
+- `/collections/laundry`
+- `/recommendations/joseph-joseph-tota-90l-laundry-basket`
+- `/guides/the-laundry-reset.pdf`
+- `/affiliate-disclosure`
+
+## Deployment
+
+Upload the contents of this ZIP to the GitHub repository root. Netlify uses `npm run build` through `netlify.toml` and the Next.js plugin.
+
+## Editorial and affiliate standard
+
+- No price or availability claims are stored on the site.
+- Amazon links use `rel="nofollow sponsored noopener"`.
+- The Amazon Associate statement is retained in the global footer and dedicated disclosure page, without repetitive collection-level strips.
+- The footer and disclosure page include: **As an Amazon Associate I earn from qualifying purchases.**
+- Product imagery sourced from external listings must remain covered by the permissions of the Associates/SiteStripe/PA API workflow used by the business.

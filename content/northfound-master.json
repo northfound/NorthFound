@@ -1,11 +1,11 @@
 {
-  "version": "2.1.1-pantry-product-images",
+  "version": "2.2.3-collection-fix",
   "project": "NorthFound",
   "site": "https://northfound.netlify.app",
   "affiliateProgram": "Amazon.com Associates",
   "trackingId": "northfoundh0b-20",
-  "currentRelease": "NorthFound 2.1.1 Pantry Product Images",
-  "workflow": "Guide -> 10 unique products -> collection page -> product pages -> Pinterest -> next guide",
+  "currentRelease": "NorthFound 2.2.3 Collection Fix",
+  "workflow": "Guide -> 10 unique products -> collection page -> transparent product pages -> Pinterest -> next guide",
   "collections": {
     "kitchen": {
       "title": "The Kitchen Reset",
@@ -27,7 +27,7 @@
     },
     "pantry": {
       "title": "The Pantry Reset",
-      "status": "release-candidate",
+      "status": "live",
       "productCount": 10,
       "guideLink": "/guides/the-pantry-reset.pdf",
       "products": [
@@ -42,8 +42,51 @@
         "idesign-lazy-susan",
         "closetmaid-over-door-organizer"
       ]
+    },
+    "laundry": {
+      "title": "The Laundry Reset",
+      "status": "release-candidate",
+      "productCount": 10,
+      "guideLink": "/guides/the-laundry-reset.pdf",
+      "coverImage": "/images/the-laundry-reset-cover.jpg",
+      "products": [
+        "jasai-glass-soap-dispenser",
+        "homestead-houseware-wool-dryer-balls",
+        "joseph-joseph-tota-90l-laundry-basket",
+        "spaceaid-bamboo-drawer-dividers",
+        "anchor-hocking-heritage-hill-glass-jars",
+        "brabantia-hangon-drying-rack",
+        "bagail-mesh-laundry-bags",
+        "storageworks-wicker-storage-baskets",
+        "boxlegend-shirt-folder-v7",
+        "storageworks-wooden-hangers"
+      ],
+      "affiliateLinks": {
+        "jasai-glass-soap-dispenser": "https://amzn.to/44Xub1A",
+        "homestead-houseware-wool-dryer-balls": "https://amzn.to/4vqCLRy",
+        "joseph-joseph-tota-90l-laundry-basket": "https://amzn.to/3RcNFfr",
+        "spaceaid-bamboo-drawer-dividers": "https://amzn.to/4w45fl6",
+        "anchor-hocking-heritage-hill-glass-jars": "https://amzn.to/453YUtT",
+        "brabantia-hangon-drying-rack": "https://amzn.to/4ydQy0p",
+        "bagail-mesh-laundry-bags": "https://amzn.to/4wJ80Z7",
+        "storageworks-wicker-storage-baskets": "https://amzn.to/4w1h77v",
+        "boxlegend-shirt-folder-v7": "https://amzn.to/4vUuiHf",
+        "storageworks-wooden-hangers": "https://amzn.to/4aO68Ws"
+      },
+      "asins": {
+        "jasai-glass-soap-dispenser": "B07Q8Y8GWN",
+        "homestead-houseware-wool-dryer-balls": "B0F8ZDC626",
+        "joseph-joseph-tota-90l-laundry-basket": "B0BS1BXM4N",
+        "spaceaid-bamboo-drawer-dividers": "B094624Q8Z",
+        "anchor-hocking-heritage-hill-glass-jars": "B01EIJ0P6W",
+        "brabantia-hangon-drying-rack": "B0DW4X4D5Q",
+        "bagail-mesh-laundry-bags": "B017NEYOQQ",
+        "storageworks-wicker-storage-baskets": "B07MFTTPFG",
+        "boxlegend-shirt-folder-v7": "B0CRDMWWQV",
+        "storageworks-wooden-hangers": "B0BLH5HPYM"
+      }
     }
   },
-  "nextStep": "Local test, commit, push and publish Pantry; then create Pinterest launch pack.",
-  "assetPolicy": "Pantry cards use locally bundled product-reference images captured from the verified Amazon listings; affiliate destinations remain the supplied Amazon Associates links."
+  "nextStep": "Commit this release to GitHub, deploy on Netlify, then complete a live-domain click test and Pinterest launch pack.",
+  "assetPolicy": "Product-reference images are bundled for the current collection-page design. Confirm that every externally sourced product image is used under the permissions attached to your Amazon Associates/SiteStripe/PA API workflow before public promotion."
 }

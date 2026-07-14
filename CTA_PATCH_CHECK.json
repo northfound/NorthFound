@@ -1,0 +1,19 @@
+{
+  "release": "NorthFound 2.2.2 CTA refinement",
+  "checkedAt": "2026-07-14",
+  "scope": "Text-only CTA and repeated disclosure cleanup",
+  "checks": {
+    "recommendationCardCTA": "View Product",
+    "productDetailCTA": "View Product",
+    "repeatedCardDisclosureRemoved": true,
+    "repeatedDetailDisclosureRemoved": true,
+    "collectionLevelDisclosureRetained": false,
+    "footerAmazonAssociateDisclosureRetained": true,
+    "dedicatedAffiliateDisclosurePageRetained": true,
+    "affiliateUrlsChanged": false,
+    "productDataChanged": false,
+    "layoutClassesChanged": false,
+    "collectionLevelDisclosureRemovedIn223": true
+  },
+  "result": "PASS"
+}
